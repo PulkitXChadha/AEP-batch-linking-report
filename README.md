@@ -1,4 +1,4 @@
-# AEP-batch-linking-report
+# AEP Batch Linking Report
 
 ## Introduction
 
@@ -52,3 +52,5 @@ The report generated is in tabular form where each row correspond to the data la
 ## Limitation:
 
 The Batch API call only queries 100 batch at a time if the linked batches are not available within the 100 batches in the response the report wont show the linked entries.
+
+![views](https://gpvc.arturio.dev/PulkitXChadha?v=3)

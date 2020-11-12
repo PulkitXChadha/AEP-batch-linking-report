@@ -118,12 +118,9 @@
           }
         ],
         "url": {
-          "raw": "https://platform.adobe.io/data/foundation/catalog/batches?status=success",
-          "protocol": "https",
+          "raw": "{{PLATFORM_GATEWAY}}/data/foundation/catalog/batches?status=success",
           "host": [
-            "platform",
-            "adobe",
-            "io"
+            "{{PLATFORM_GATEWAY}}"
           ],
           "path": [
             "data",

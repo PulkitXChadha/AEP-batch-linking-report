@@ -234,7 +234,7 @@
       "response": []
     },
     {
-      "name": "Batch Related Objects",
+      "name": "AEP Batch Linking report",
       "event": [
         {
           "listen": "test",

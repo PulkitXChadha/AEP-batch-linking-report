@@ -11,26 +11,28 @@ The report generated is in tabular form where each row correspond to the data la
 1. Install the collections and environment into postman.
 
    - Step a: In Postman select Import
-   - Step b; Select the three files in the Postman folder on this repo
+   - Step b; Select the three files in the [Postman Collection folder](Postman%20Collections) in this repo
    - Step c: Import the files into postman
 
-   <img src="images/Step 1.png" alt="Markdown Monster icon" style="float: left; margin-right: 10px;" />
+   <img src="images/Step 1.png" alt="Markdown Monster icon" style="float: left; margin-right: 10px;" /> &nbsp;&nbsp;
 
 2. Add Integration details/environment parameters in postman
 
    - Step a: Select the Environment from the top right
    - Step b: Add the Adobe Console Integration details. You can get this from [Adobe Developer Console](https://console.adobe.io/)
 
-   <img src="images/Step 2.png" alt="Markdown Monster icon" style="float: left; margin-right: 10px;" />
+   &nbsp;<img src="images/Step 2.png" alt="Markdown Monster icon" style="float: left; margin-right: 10px;" />&nbsp;&nbsp;
 
    _Note_: You will also need the private key associate with this integration.
 
 3. Get Access Token
 
    - Step a: With the Environment selected, Hit the GET INIT: Load Crypto Library for RS256 call
-   - Step b: Hit the POST IMS: JWT Generate + Auth to load the get the access token.
 
-   <img src="images/Step 3a.png" alt="Markdown Monster icon" style="float: left; margin-right: 10px;" />
+     &nbsp;<img src="images/Step 3a.png" alt="Markdown Monster icon" style="float: left; margin-right: 10px;" /> &nbsp;
+
+   - Step b: Hit the POST IMS: JWT Generate + Auth to load the get the access token.
+     &nbsp;<img src="images/Step 3b.png" alt="Markdown Monster icon" style="float: left; margin-right: 10px;" />&nbsp;
 
    _Note_ The access token will automatically be saved in the ACCESS_TOKEN environment variable
 
@@ -39,12 +41,13 @@ The report generated is in tabular form where each row correspond to the data la
    - Step a: Hit the GET AEP Batch Linking report call.
    - Step b: Go to the Visualize tab in the response section
 
-   <img src="images/Step 4.png" alt="Markdown Monster icon" style="float: left; margin-right: 10px;" />
+   &nbsp;<img src="images/Step 4.png" alt="Markdown Monster icon" style="float: left; margin-right: 10px;" />&nbsp;
 
    _Note_
 
    - UPSBatch: Group of columns with details of the related Profile Store Batch
    - UISBatch: Group of columns with details of the related Identity Store Batch
+   - You can add/modify parameters to filter the response based on a condition. Placeholder parameters are included in the API call
 
 ## Limitation:
 

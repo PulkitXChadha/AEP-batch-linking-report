@@ -75,7 +75,7 @@
           }
         }
       ],
-      "_postman_id": "d8266211-eab8-4dd3-9cc9-92677169f358",
+      "id": "d8266211-eab8-4dd3-9cc9-92677169f358",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -280,7 +280,7 @@
               "        allIDBatches.push(data);",
               "    }",
               "",
-              "    if(value.createdClient == 'acp_core_identity_data'){",
+              "    if(value.createdClient == 'acp_core_unifiedProfile_feeds'){",
               "        data.BatchID = key;",
               "        data.createdClient = value.createdClient;",
               "        data.metrics = value.metrics;",
@@ -295,9 +295,6 @@
               "        allUPSBatches.push(data);",
               "    }",
               "    ",
-              "    if(value.createdClient == 'acp_core_unifiedProfile_feeds'){",
-              "",
-              "    }",
               "})",
               "",
               "var responseData = allFoundationBatches.map(x =>{",
@@ -686,7 +683,7 @@
           }
         }
       ],
-      "_postman_id": "1cda12e3-da39-45b5-9945-0ace4711fa3f",
+      "id": "1cda12e3-da39-45b5-9945-0ace4711fa3f",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },

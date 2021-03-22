@@ -295,7 +295,7 @@
               "        allUPSBatches.push(data);",
               "    }",
               "    ",
-              "    if(value.createdClient == 'acp_foundation_push'){",
+              "    if(value.createdClient == 'acp_core_unifiedProfile_feeds'){",
               "",
               "    }",
               "})",
